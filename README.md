@@ -115,6 +115,14 @@ El comando `git reflog` muestra el historial de movimientos que ha tenido `HEAD`
 
 Uso el formato MAJOR.MINOR.PATCH.
 
-- MAJOR: cambios que rompen compatibilidad. Ej: v1.0.0 -> v2.0.0.
-- MINOR: nuevas funciones compatibles. Ej: v1.1.0 agrega una función nueva.
-- PATCH: correcciones pequeñas. Ej: v1.0.1 corrige un error.
+- MAJOR: cambios que rompen compatibilidad. Ejemplo: v1.0.0 -> v2.0.0.
+- MINOR: nuevas funciones compatibles. Ejemplo: v1.1.0 agrega una función nueva.
+- PATCH: correcciones pequeñas. Ejemplo: v1.0.1 corrige un error.
+
+## ¿Qué hace git stash?
+
+`git stash` guarda temporalmente cambios que todavía no quiero commitear. Sirve para dejar la carpeta limpia, cambiar de tarea rápido y después recuperar esos cambios con `git stash pop` o `git stash apply`.
+
+## ¿Qué hace git tag?
+
+`git tag` marca un commit específico como una versión importante, por ejemplo `v1.0`. Sirve para recordar exactamente qué versión se entregó o se publicó.
