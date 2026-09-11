@@ -107,3 +107,14 @@ Link de tu repositorio (fork) + pantallazo de "git log --oneline"
 
 El comando `git reflog` muestra el historial de movimientos que ha tenido `HEAD` en el repositorio local. Permite ver acciones como commits, resets y modificaciones del historial, incluso cuando un commit ya no aparece en `git log`.
 
+
+
+
+
+## Versionado semántico
+
+Uso el formato MAJOR.MINOR.PATCH.
+
+- MAJOR: cambios que rompen compatibilidad. Ej: v1.0.0 -> v2.0.0.
+- MINOR: nuevas funciones compatibles. Ej: v1.1.0 agrega una función nueva.
+- PATCH: correcciones pequeñas. Ej: v1.0.1 corrige un error.
